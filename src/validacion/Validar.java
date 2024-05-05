@@ -9,7 +9,7 @@ import java.util.regex.Pattern;
 public class Validar 
 {
     /**
-     * Metodo principal para probar la validacion de un texto según un patron.
+     * Metodo principal para probar la validacion de un texto segun un patron.
      * @param args Los argumentos de la linea de comandos (no se utilizan).
      */
     public static void main(String[] args) 
@@ -25,7 +25,7 @@ public class Validar
     /**
      * Valida si un texto cumple con un patron determinado.
      * @param texto El texto a validar.
-     * @param patron El patrón contra el cual se valida el texto.
+     * @param patron El patron contra el cual se valida el texto.
      * @return True si el texto cumple con el patron, False de lo contrario.
      */
     public static boolean validarPatron(String texto, String patron) 

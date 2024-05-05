@@ -291,8 +291,8 @@ public class Alumno
 	/**
      * Establece el numero de telefono del alumno.
      * 
-     * @param telefono El numero de teléfono del alumno que se va a establecer.
-     * @return true si el numero de teléfono se establecio correctamente, false si el número no cumple con el formato especificado.
+     * @param telefono El numero de telefono del alumno que se va a establecer.
+     * @return true si el numero de telefono se establecio correctamente, false si el numero no cumple con el formato especificado.
      */
 	public boolean setTelefono(String telefono) {
 		

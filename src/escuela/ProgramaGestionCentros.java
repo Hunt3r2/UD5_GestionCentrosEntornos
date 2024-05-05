@@ -10,9 +10,9 @@ public class ProgramaGestionCentros
 	private Gestor miGestor;
 	
 	/**
-     * Metodo principal que inicia el programa.
-     * @param args Argumentos de la línea de comandos (no utilizados).
-     */
+	 * Método principal que inicia el programa.
+	 * @param args Argumentos de la línea de comandos (no utilizados).
+	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		ProgramaGestionCentros programa = new ProgramaGestionCentros();

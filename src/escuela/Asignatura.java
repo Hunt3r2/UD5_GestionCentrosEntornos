@@ -225,7 +225,7 @@ public class Asignatura
      * Establece el nombre de la asignatura.
      * 
      * @param nombre El nombre de la asignatura que se va a establecer.
-     * @return true si el nombre se estableció correctamente, false si el nombre no cumple con el formato especificado.
+     * @return true si el nombre se establecio correctamente, false si el nombre no cumple con el formato especificado.
      */
 	public boolean setNombre(String nombre) {
 		boolean validacionOK = Validar.validarPatron(nombre.toString(), "^\\w{1,70}$");
@@ -249,7 +249,7 @@ public class Asignatura
      * Establece el codigo de la asignatura.
      * 
      * @param codigo El codigo de la asignatura que se va a establecer.
-     * @return true si el código se establecio correctamente, false si el codigo no cumple con el formato especificado.
+     * @return true si el codigo se establecio correctamente, false si el codigo no cumple con el formato especificado.
      */
 	public boolean setCodigo(String codigo) {
 		boolean validacionOK = Validar.validarPatron(codigo.toString(), "^ASIG[0-9]{4}$");

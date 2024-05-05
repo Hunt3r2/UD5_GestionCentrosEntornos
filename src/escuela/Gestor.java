@@ -169,7 +169,7 @@ public class Gestor
 	}
 	
 	/** Metodo que va a recorrer el vector de profesores
-	* @return va a coger el id más alto que exista respecto a su
+	* @return va a coger el id mas alto que exista respecto a su
 	* parte numerica y me va a devolver el siguiente */
 	private String obtenerNuevoIdProfesor() 
 	{
@@ -525,7 +525,7 @@ public class Gestor
 
 	/**
 	 * Este metodo muestra una lista de profesores registrados y permite al usuario seleccionar uno de ellos para consultar su informacion.
-	 * @return El índice del profesor seleccionado (comenzando desde 0), o -1 si no hay profesores registrados o se selecciona la opción de volver al menu anterior.
+	 * @return El indice del profesor seleccionado (comenzando desde 0), o -1 si no hay profesores registrados o se selecciona la opcion de volver al menu anterior.
 	 */
 	public int listarProfesores() 
 	{
@@ -669,7 +669,7 @@ public class Gestor
 	}
 	
 	/**
-	 * Este metodo permite al usuario consultar la informacion de una asignatura seleccionada de la lista de asignaturas registradas en la plataforma.
+	 * Este metodo permite al usuario consultar la informacion de una asignatura seleccionada de la lista de asignaturas registradas.
 	 */
 	public void consultarAsignaturas() 
 	{

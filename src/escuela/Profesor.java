@@ -3,7 +3,7 @@ package escuela;
 import validacion.Validar;
 
 /**
- * La clase Profesor representa a un profesor en la escuela, con diversas características como nombre, apellido, 
+ * La clase Profesor representa a un profesor en la escuela, con diversas caracteristicas como nombre, apellido, 
  * telefono, email, documento de identidad, sueldo, entre otros.
  */
 public class Profesor 
@@ -178,11 +178,11 @@ public class Profesor
      * @param apellido1 El primer apellido del profesor.
      * @param apellido2 El segundo apellido del profesor (opcional).
      * @param telefono El número de teléfono del profesor.
-     * @param email El correo electrónico del profesor.
+     * @param email El correo electronico del profesor.
      * @param documento El documento de identidad del profesor.
      * @param esTutor Indica si el profesor es tutor o no.
      * @param sueldo El sueldo del profesor.
-     * @param diasAsuntosPropios Los días de asuntos propios del profesor.
+     * @param diasAsuntosPropios Los dias de asuntos propios del profesor.
      */
 	public Profesor(String idProfesor, String nombre, String apellido1, String apellido2,
 			String telefono, String email, String documento, boolean esTutor, double sueldo,
@@ -227,7 +227,7 @@ public class Profesor
 	/**
      * Establece el ID del profesor.
      * @param idProfesor El nuevo ID del profesor.
-     * @return True si el ID es válido, False de lo contrario.
+     * @return True si el ID es valido, False de lo contrario.
      */
 	public boolean setId(String idProfesor) {
 		
